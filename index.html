@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Sección de presentación -->
+<header class="presentation" id="top">
+  <nav class="navigation section--dark">
+    <a href="#top" class="navigation__logo-link">
+      <img src="recursos portafolio/logo en blanco-portafolio.png" alt="Logo" class="navigation__logo">
+    </a>
+    <ul class="navigation__menu">
+      <li><a href="#contenido">Contenido</a></li>
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#p-personal">P. Personal</a></li>
+      <li><a href="#referencias">Referencias</a></li>
+    </ul>
+  </nav>
+  <div class="presentation__content">
+    <img src="recursos portafolio/imagen de portada-portafolio.jpeg" alt="Fondo de presentación">
+  </div>
+</header>
+
+  <!-- Contenido -->
+  <section id="contenido" class="section section--light">
+    <nav class="navigation section--light">
+      <a href="#top" class="navigation__logo-link">
+        <img src="recursos portafolio/logo en negro sin fondo-portafolio.png" alt="Logo" class="navigation__logo">
+      </a>
+      <ul class="navigation__menu">
+        <li><a href="#contenido">Contenido</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#p-personal">P. Personal</a></li>
+        <li><a href="#referencias">Referencias</a></li>
+      </ul>
+    </nav>
+    <p class="text-left-justify">¡Explora mis proyectos y descubre cómo cada diseño
+      <br>cuenta una historia única y llena de creatividad!</p>
+    <div class="cards">
+      <div class="card card__content">
+        <img src="recursos portafolio/imagen de mario-portafolio.jpeg" alt="Mario Card" class="card__content__img">
+        <p id="card__content__description">Mario-Card<br>10/09/24</p>
+      </div>
+      <div class="card card__content">
+        <img src="recursos portafolio/imagen de clash of clans-portafolio.jpeg" alt="Clash of Clans" class="card__content__img">
+        <p id="card__content__description">Clash Of Clans<br>17/09/24</p>
+      </div>
+      <div class="card card__content">
+        <img src="recursos portafolio/imagen web cute-portafolio.jpeg" alt="Web Cute" class="card__content__img">
+        <p id="card__content__description">Web Cute<br>01/10/24</p>
+      </div>
+      <div class="card card__content">
+        <img src="recursos portafolio/imagen melody pixel art-portafolio.jpeg" alt="Pixel Art" class="card__content__img">
+        <p id="card__content__description">Pixel Art<br>03/09/24</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Shop -->
+<section id="shop" class="section section--dark">
+  <nav class="navigation section--dark">
+    <a href="#top" class="navigation__logo-link">
+      <img src="recursos portafolio/logo en blanco-portafolio.png" alt="Logo" class="navigation__logo">
+    </a>
+    <ul class="navigation__menu">
+      <li><a href="#contenido">Contenido</a></li>
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#p-personal">P. Personal</a></li>
+      <li><a href="#referencias">Referencias</a></li>
+    </ul>
+  </nav>
+
+  <p class="text-left-justify">¡Explora mi tienda y lleva contigo diseños exclusivos,
+    <br>creados para inspirar y destacar. Cada pieza refleja 
+    <br>pasión y creatividad!</p>
+
+  <div class="cards">
+    <div class="card">
+      <img src="recursos portafolio/imagen de pizza-portafolio.jpeg" alt="Producto 1">
+      <p>Publicidad food - $50.000<br>05/08/24</p>
+    </div>
+    <div class="card">
+      <img src="recursos portafolio/imagen salud mental-portafolio.jpeg" alt="Producto 2">
+      <p>Salud mental - $40.000<br>29/09/24</p>
+    </div>
+    <div class="card">
+      <img src="recursos portafolio/imagen labial-portafolio.jpeg" alt="Producto 3">
+      <p>Labial 3D<br>15/05/24</p>
+    </div>
+  </div>
+
+  <!-- Botón "¡Comprar!" -->
+  <div class="shop-button-container">
+    <label for="openModal" class="shop-button">¡Comprar!</label>
+  </div>
+</section>
+
+<!-- Modal -->
+<input type="checkbox" id="openModal" class="modal-toggle">
+<div class="modal">
+  <div class="modal-content">
+    <h2>Método de Compra</h2>
+
+    <!-- Contenedor con fondo blanco solo para los textos -->
+    <div class="form-container">
+      <div class="form-field-container">
+        <div class="form-field">
+          <div class="text-field">Nombre Completo</div>
+        </div>
+        <div class="form-field">
+          <div class="text-field">Información de su Tarjeta</div>
+        </div>
+      </div>
+
+      <div class="form-field-container">
+        <div class="form-field">
+          <div class="text-field">Trabajo a Elegir</div>
+        </div>
+        <div class="form-field">
+          <div class="text-field">Monto a Pagar</div>
+        </div>
+      </div>
+
+      <!-- Botón "Finalizar Compra" -->
+      <div class="form-field">
+        <label for="openModal" class="finalize-button">Finalizar Compra</label>
+      </div>
+    </div>
+
+    <!-- Mensaje de agradecimiento -->
+    <p id="thankYouMessage" class="thank-you-message">¡Gracias por tu compra! Tu apoyo hace<br>posible seguir creando con pasión.</p>
+  </div>
+</div>
+
+<!-- P. Personal -->
+<section id="p-personal" class="section section--light">
+  <nav class="navigation section--light">
+    <a href="#top" class="navigation__logo-link">
+      <img src="recursos portafolio/logro en negro-portafolio.png" alt="Logo" class="navigation__logo">
+    </a>
+    <ul class="navigation__menu">
+      <li><a href="#contenido">Contenido</a></li>
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#p-personal">P. Personal</a></li>
+      <li><a href="#referencias">Referencias</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenedor principal de la sección -->
+  <div class="personal-container">
+
+    <div class="personal-image">
+      <img src="recursos portafolio/imagen personal-portafolio.jpeg" alt="Imagen personal">
+    </div>
+
+    <div class="personal-text-images">
+      <div class="personal-text">
+        <p>Mi nombre es Danna Guerrero, tengo 20 años y soy diseñadora gráfica en formación, cursando el cuarto semestre en la Universidad Autónoma del Caribe. Me apasiona explorar la creatividad a través de la animación, la publicidad y el manejo de redes sociales. Disfruto crear proyectos únicos que no solo sean visualmente atractivos, sino que también conecten y transmitan ideas de manera original y significativa. Cada diseño es una oportunidad para aprender, crecer y dejar una huella personal en el mundo del diseño.</p>
+      </div>
+
+      <div class="small-images">
+        <div class="small-image">
+          <img src="recursos portafolio/imagen adobe ilustrator-portafolio.png" alt="imagen 1">
+          <p>Adobe<br>Illustrator</p>
+        </div>
+        <div class="small-image">
+          <img src="recursos portafolio/imagen adobe photoshop-portafolio.png" alt="imagen 2">
+          <p>Adobe<br>Photoshop</p>
+        </div>
+        <div class="small-image">
+          <img src="recursos portafolio/imagen adobe indesign-portafolio.png" alt="imagen 3">
+          <p>Adobe<br>InDesign</p>
+        </div>
+        <div class="small-image">
+          <img src="recursos portafolio/imagen visual code-portafolio.png" alt="imagen 4">
+          <p>Visual<br>Code</p>
+        </div>
+        <div class="small-image">
+          <img src="recursos portafolio/imagen de figma-portafolio.png" alt="imagen 5">
+          <p>Figma</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botón "Contactarme" -->
+  <div class="contact-button">
+    <button onclick="openContactModal()">Contactarme</button>
+  </div>
+</section>
+
+<!-- Modal -->
+<div class="custom-modal" id="contactModal">
+  <div class="custom-modal-content">
+      <h2 class="custom-modal-title">¡Contáctate conmigo!</h2> <!-- Título del formulario -->
+
+      <!-- Contenedor -->
+      <div class="custom-form-container">
+          <div class="custom-form-field-container">
+              <div class="custom-form-field">
+                  <input type="text" class="custom-text-field" placeholder="Nombre completo" readonly>
+              </div>
+          </div>
+          <div class="custom-form-field-container">
+              <div class="custom-form-field">
+                  <input type="email" class="custom-text-field" placeholder="Correo" readonly>
+              </div>
+          </div>
+          <div class="custom-form-field-container">
+              <div class="custom-form-field">
+                  <textarea class="custom-text-field" placeholder="Enviar mensaje o solicitar colaboración" readonly></textarea>
+              </div>
+          </div>
+
+          <!-- Botón "Enviar" -->
+          <div class="custom-form-field">
+              <button type="button" class="custom-finalize-button" onclick="showThankYouMessage()">Enviar</button>
+          </div>
+      </div>
+
+      <!-- Mensaje de agradecimiento -->
+      <p class="custom-thank-you-message">¡Gracias por tu interés! Estoy feliz de conectar<br>contigo y explorar nuevas ideas juntos.</p>
+
+      <!-- Botón "Atrás" -->
+      <div class="custom-form-field">
+          <button type="button" class="custom-back-button" onclick="closeContactModal()">Atrás</button>
+      </div>
+  </div>
+</div>
+
+<script>
+function openContactModal() {
+  document.getElementById('contactModal').style.display = 'flex';
+}
+
+function closeContactModal() {
+  document.getElementById('contactModal').style.display = 'none';
+}
+</script>
+</section>
+
+  <!-- Referencias -->
+  <section id="referencias" class="section section--dark">
+    <nav class="navigation section--dark">
+      <a href="#top" class="navigation__logo-link">
+        <img src="recursos portafolio/logo en blanco-portafolio.png" alt="Logo" class="navigation__logo">
+      </a>
+      <ul class="navigation__menu">
+        <li><a href="#contenido">Contenido</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#p-personal">P. Personal</a></li>
+        <li><a href="#referencias">Referencias</a></li>
+      </ul>
+    </nav>
+    <p class="text-left-justify">Conoce las experiencias de quienes han confiado 
+     <br> en mi trabajo:Opiniones que reflejan creatividad y
+     <br>dedicación en cada proyecto.</p>
+    <div class="cards">
+      <div class="card">
+        <h2>Web Cute</h2>
+        <img src="recursos portafolio/imagen web cute-portafolio.jpeg" alt="Referencia 2">
+        <p>"Un diseño bien estructurado y
+          <br> visualmente atractivo, que refleja
+          <br>profesionalismo y un enfoque
+          <br>moderno para conectar con el
+          <br>usuario."</p>
+      </div>
+      <div class="card">
+        <h2>Pixel Art</h2>
+        <img src="recursos portafolio/imagen melody pixel art-portafolio.jpeg" alt="Referencia 1">
+        <p>"Un proyecto que destaca por
+          <br> su creatividad y precisión,
+          <br>capturando la esencia del 
+          <br>personaje con un estilo retro
+          <br>que atrae y emociona."
+        </p>
+      </div>
+      <div class="card">
+        <h2>Countries</h2>
+        <img src="recursos portafolio/imagen countries-portafolio.jpeg" alt="Referencia 3">
+        <p>"Una pieza vibrante y bien lograda
+          <br>que combina colores y gráficos
+          <br>para transmitir diversidad y cultura
+          <br>de manera clara y llamativa."</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
